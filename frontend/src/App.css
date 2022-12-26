@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+.header{
+  width: 100%;
+  /* background-color: rgb(33,33,38); */
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  align-items: center;
+}
+.con{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .walinp{
+  display: flex;
+  width: 45%;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.avatar div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: 50px 0px;
+  align-items: center;
+}
+.profile .totalvalue{
+  
+  text-align: center;
+}
+.bgcover{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  /* transform: rotateX(40deg); */
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+}
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.act-tab{
+  color: rgb(104, 115, 141);
+  border-bottom: solid;
+  border-color: rgb(28, 136, 136);
+}
+.cont{
+  display: none;
+}
+.act-cont{
+  display: block;
+  width: 100%;
+
+
+}
+.headls{
+  display: flex;
+  color: rgb(104, 115, 141);
+  align-items: center;
+  margin: 40px 0px;
+}
+.nsoff{
+  display: none;
+}
+.fliters{
+  display: flex;
+}
+.fliters div{
+  margin-right: 40px;
+}
+.nfts{
+  margin: 50px 0px;
+}
+.nfts div{
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.nfts div section{
+  margin-left: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.headls h1{
+  margin-right: 10px;
+}
+
+.table{
+  width: 100%;
+  display: none;
+  margin: 50px 0px;
+  border-radius: 50px;
+  border: solid;
+  border-color: #fff;
+}
+.soff1{
+  display: block;
+}
+.table .hd{
+  font-weight: bold;
+  border-bottom: solid;
+  padding-bottom: 20px;
+}
+.table .hd li{
+  color: rgb(104, 115, 141);
+}
+.table ul li{
+  font-size: 1.2rem;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+.content ul{
+  display: flex;
+  margin: 50px 0px;
+
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+}
+
+table{
+  width: 100%;
+  min-height: 500px;
+  margin-top: 50px;
+  border: solid;
+  border-radius: 50px;
+  padding: 20px;
+  text-align: center;
+}
+table .firstrow{
+  font-size: 1.3rem;
+  padding-bottom: 20px;
+}
+table td{
+  margin-top: 20px;
+}
